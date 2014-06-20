@@ -2,9 +2,9 @@ require 'formula'
 
 class Muparser < Formula
   homepage 'http://muparser.sourceforge.net/'
-  url 'https://downloads.sourceforge.net/project/muparser/muparser/Version%201.34/muparser_v134.tar.gz'
-  sha1 'd6d834d3ba2bd3c316c9b3070369d32701703f78'
-  version '1.34'
+  url 'http://downloads.sourceforge.net/project/muparser/muparser/Version%202.2.3/muparser_v2_2_3.zip'
+  sha1 '3974898052dd9ef350df1860f8292755f78f59df'
+  version '2.2.3'
 
   def install
     system "./configure", "--disable-debug", "--disable-dependency-tracking",
